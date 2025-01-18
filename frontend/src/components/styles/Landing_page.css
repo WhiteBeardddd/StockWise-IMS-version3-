@@ -12,6 +12,48 @@ header {
     top: 0;
     width: 100%;
     text-align: center;
-    display: block;
+    display: flex;
+    background-color: rgba(85, 85, 85, 0.212);
 }
 
+.left-header{
+    display: flex;
+    width: 50%;
+}
+.right-header{
+    display: flex;
+    width: 50%;
+    justify-content:right;
+    align-items: center;
+}
+
+.logo{
+    padding: 20px;
+    padding-right: -10px;
+    padding-top: -10px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.company-name{
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: green;
+    height: 50px;
+    margin: 0 10px;
+}
+
+button.login{
+    background-color: rebeccapurple;
+}
+
+button.sign-up{
+    margin-right: 75px;
+}
